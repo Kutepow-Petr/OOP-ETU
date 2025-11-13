@@ -11,9 +11,6 @@ public class Main {
             Scanner consoleInput = new Scanner(System.in);
             System.out.print("Введите путь до справочника или напишите \"exit\", чтобы выйти_");
 
-            //    D:\\Учёба\\ООП\\Prac_2\\address.csv
-            //    D:\\Учёба\\ООП\\Prac_2\\address.xml
-
             try {
                 String userResponse = consoleInput.nextLine();
                 long totalTime = System.currentTimeMillis(), separateTime = System.currentTimeMillis();
